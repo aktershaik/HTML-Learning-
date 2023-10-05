@@ -1,0 +1,8 @@
+p{
+    
+    border-width:5px 5px 5px 5px;
+    border-color:red green blue yellow;
+    width: 40%;
+    border-style:solid dotted double groove;
+
+}
