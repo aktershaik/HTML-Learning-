@@ -1,0 +1,12 @@
+.background-1{
+    background-color: aqua;
+}/* class we can use multiple places, html command class="anyname"  . command is .anyname{}*/
+.background-2{
+    background-color: blueviolet;
+}
+#oncewecanuse{
+    background-color: black;
+    color: white;
+}
+
+/* Id we can use only once id=oncewecanuse html command id="anyname"  css comand is #anyname{} */
