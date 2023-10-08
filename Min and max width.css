@@ -1,0 +1,5 @@
+div{
+    border: solid 2px Red;
+    min-width: 200px;
+    max-width: 600px;
+}
