@@ -1,0 +1,22 @@
+div{
+    border:solid brown 1px ;
+    width:300px;
+    margin:50px auto ;
+}
+h4{
+    margin:10px 20px 10px 20px;
+}
+.top-bottom-right-left{
+   
+
+   /* margin-top: 30px;
+    margin-right:50px ;
+    margin-bottom: 70px;
+    margin-left: 80px;     lower command and this command same */
+
+    margin:30px 50px 70px 80px;
+    
+}
+.top-right{
+    margin:50px 50px;
+}
