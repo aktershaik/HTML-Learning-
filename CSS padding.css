@@ -1,0 +1,13 @@
+p{
+    width: 50%;
+    border: solid 1px;
+    padding: 20px 20px; /* 20px 20px means left and right20px   also up and bottom 20px*/
+}
+
+div{
+    width: 50%;
+    border:solid 1px;
+    padding: 20px 20px;
+    /* dont know why im getting 2 row when Im using div*/
+
+}
