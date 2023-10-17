@@ -1,14 +1,17 @@
 .number_u{
-    border: 1px solid black;
+    border: 5px solid black;
     height: 300px;
+    border-top-right-radius: 20px;
 }
 #second_border{
-    border: 1px solid red;
+    border: 5px solid red;
     height: 300px;
+    border-radius: 10px 20px 30px 40px;
 
 }
 div{
     border: 1px solid green;
     height: 300px;
+    
     /* why here we getting two box  */
 }
