@@ -1,0 +1,33 @@
+.color{
+    color: orange;
+}
+.align{
+    text-align: right;
+    color:aqua;
+}
+.decoration{
+    color: red;
+    text-decoration: line-through underline overline ;
+
+}
+.transformation{
+    color:blue;
+    text-transform: uppercase;
+}
+.indent{
+    color:yellowgreen;
+}
+.height{
+    width: 50%;
+    color: brown;
+    line-height: 50px;
+    line
+}
+.word-spacing{
+    color: red;
+    width: 40%;
+    word-spacing:10px;
+}
+.letter-spacing{
+     letter-spacing: 5px;
+}
