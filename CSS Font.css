@@ -1,0 +1,25 @@
+.one{
+    font-style: oblique; italic and oblique is same . some font dont have 
+}
+.two{
+    font-variant:small-caps; all capps but first letter is larger
+}
+.three{
+    font-weight: 100; h1 is always bold
+}
+.four{
+    font-size:20px;
+}
+.five{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.six{
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+.seven{
+    font:italic small-caps 100 20px franklin gothic medium ;
+}
