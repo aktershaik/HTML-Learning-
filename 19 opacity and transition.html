@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity and Transition</title>
+    <style>
+        .opacity{
+            width: 400px;
+            height:500px;
+            background-color: aqua;
+            opacity: .6;
+            /* opacity  হচ্ছে কোনো অব্জেক্ট কে কতটুকু সচ্ছ দেখা যাবে সেইটা। 
+            value 0 থেকে ১ পর্যন্ত। */
+
+            transition: 1s;
+            /* transition কত সময় পর কালার পরিবর্তন হবে সেই value */
+
+        }
+        .opacity:hover{
+            opacity: 1;
+            background-color: blue;
+
+        }
+
+        
+    </style>
+ </head>
+ <body>
+    <div class="opacity"></div>
+ </body>
+ </html>
