@@ -8,11 +8,14 @@
         .column{
 
             height: 100px;
-            /* column-count: 3; */ 
-            /* column width and column count not working at the same time  */
+            column-count: 3; 
+            column-count: 3; থাকলে ৩টা কলাম হবে।
+             column-width: 100px; 
+/*              column-width: 100px; থাকলে ১০০ পিক্সেল এর পর পর যে কয়টা কলাম দরকার হবে সেই কয়টা কলাম অটোমেটিক হয়ে যাবে। */
+/*             column-count এবং column-width একসাথে কাজ করবে না । যে কোনো একটা দিতে হবে। */
             column-gap: 40px;
             column-rule: 3px dashed red;
-            column-width: 100px;  
+            
             text-align: justify;
         }
         .span{
