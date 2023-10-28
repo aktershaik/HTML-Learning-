@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <style>
+        /*position ব্যবহার করে আমরা ডিভ, কোন বক্স , কোনো element page  এর যে কোনো যায়গায় move  করাতে চাই margin ছাড়া , 
+         margin দিলে move করবে , কিন্তু আমরা যেভাবে চাচ্ছি সেভাবে হবে না। margin সবসময় কিছুটা যায়গা নিয়ে থাকে । অনেক সময় এক ডিভ কে অন্য ডিভ এর উপর overlap করাতে ব্যভার করতে হয়।
+        position absolute = দিলে ,সে তার নিজের যায়গা ছেড়ে  দেয় এবং অন্য ডিভ তার যায়গা দখল করতে দেয়।
+         position relative = দিলে তার যায়গা থেকে সরে জাবে কিন্ত অন্য ডিভকে তার যায়গায় আস্তে দিবে না/ */ 
+
+        .col1{
+            width: 200px;
+            height: 200px;
+            /* border: 2px solid black; */
+            float: left;
+            font-size: 40px;
+            text-align: center;
+            background-color: rgb(218, 198, 19);
+            
+
+        }
+
+        .col2{
+            width: 200px;
+            height: 200px;
+            /* border: 2px solid green; */
+            float: left;
+            font-size: 40px;
+            text-align: center;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            background-color: rgb(212, 147, 48);
+        }
+
+
+        .col3{
+            width: 200px;
+            height: 200px;
+            /* border: 2px solid red; */
+            float:left;
+            font-size: 40px;
+            text-align: center;
+            background-color: rgb(235, 35, 35);
+
+        }
+
+       
+
+    </style>
+</head>
+<body> 
+    <div class="col1"><h1>1</h1></div>
+    <div class="col2"> <h1>2</h1></div>
+    <div class="col3"><h1>3</h1></div>
+    
+    </body>
+</html>
