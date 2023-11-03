@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing </title>
+    <style>
+        .div-1{
+            background-color: chocolate;
+            width: 400px;
+            height: 150px;
+            border: 20px solid black;
+            padding: 50px;
+            box-sizing: border-box;
+            
+            /* বর্ডার ২০ ও প্যাডিং ৫০ দেয়ার ফলে বক্সটা ৪০০+৫০+৫০+২০+২০=৫৪০ হয়ে গেছে।
+            box sizing=border-box দিলে , বক্সটা ৪০০ হবে কিন্ত ৫০+৫০+২০+২০ ভিতরে হবে। */
+        }
+        .div-2{
+            background-color: blueviolet;
+            width: 400px;
+            height: 150px;
+            border: 20px solid black;
+            padding: 50px;
+
+             
+        }
+    </style>
+</head>
+<body>
+    <div class="div-1"> hello</div>
+    <br><br>
+    <div class="div-2">Hello2</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .div1{
+            background: red;
+            width: 300px;
+            margin:5px;
+            border:5px solid black;
+            padding:5px;
+
+            /* so total with is 300+10(5+5 left +right margin)+10 (5+5 border)+10(5+5 padding)330px */
+        }
+        p{
+            margin-left: 15px;
+            /* once the above px assign , then both line strt same */
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">This is Div Tag</div>
+    <p>This is para Tag</p>
+
+</body>
+</html>
